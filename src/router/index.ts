@@ -9,9 +9,14 @@ const router = createRouter({
             component: () => import('../views/HomeView.vue')
         },
         {
-            path: '/portfolio',
+            path: '/portfolio/:id',
             name: 'portfolio',
             component: () => import('../views/PortfolioView.vue')
+        },
+        {
+            path: '/portfolios',
+            name: 'portfolios',
+            component: () => import('../views/PortfoliosView.vue')
         },
         {
             path: '/resume',
