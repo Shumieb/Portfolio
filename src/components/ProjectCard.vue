@@ -25,7 +25,7 @@ if(skills){
             <div>
                 <router-link 
                     to="/project/1" 
-                    class="text-2xl"
+                    class="text-2xl hover:underline decoration-slate-300"
                 >{{ props.project.name }}</router-link>
                 <p class="capitalize text-slate-700">{{props.project.type}} Project</p>
                 <div class="flex mt-2.5">

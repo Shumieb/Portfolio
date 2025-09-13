@@ -15,11 +15,32 @@
                 recusandae id, cumque quam est iusto aut explicabo officiis 
                 adipisci neque quo quae possimus quis praesentium tenetur!
             </p>
-            <router-link
-                to="/resume" 
-                role="button" 
-                class="bg-pink-900 text-white text-lg px-6 py-2 shadow rounded"
-            >View Resume</router-link>
+            
+            <div class=" flex gap-4 justify-between">
+                <router-link
+                    to="/resume" 
+                    role="button" 
+                    class="bg-pink-900 text-white text-lg px-6 py-2 rounded shadow-sm hover:shadow-xl hover:bg-pink-950"
+                >View Resume</router-link>
+                <div class="pt-1.5">
+                    <a 
+                        role="button"
+                        target="_blank"
+                        href="https://www.linkedin.com"
+                        class="text-sky-800 hover:text-sky-900">
+                        <i class="pi pi-linkedin" style="font-size: 2rem; padding-right: 8px;"></i>
+                    </a>
+                    <a 
+                        role="button"
+                        target="_blank"
+                        href="https://www.linkedin.com"
+                        class="hover:text-slate-800"
+                    >
+                        <i class="pi pi-github" style="font-size: 2rem"></i>
+                    </a>
+                </div>
+                
+        </div>
         </section>
         <section>
             <img 

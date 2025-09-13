@@ -19,7 +19,7 @@
             <div class="flex justify-between mb-4">
                 <p class="text-2xl">Recent projects</p>
                 <router-link 
-                    class="text-2xl underline decoration-pink-900" 
+                    class="text-2xl underline decoration-pink-900 hover:decoration-slate-400" 
                     to="/projects"
                 >View Projects</router-link>
             </div>            
