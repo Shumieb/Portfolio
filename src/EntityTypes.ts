@@ -9,5 +9,6 @@ export interface ProjectType {
     techStack: string,
     likes: number,
     imgUrl?: string,
-    type: "frontend" | "backend" | "fullstack"
+    type: "frontend" | "backend" | "fullstack",
+    featured: boolean
 }

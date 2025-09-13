@@ -11,7 +11,8 @@ export const MockProjects: ProjectType[] = [
         completedDate: "12 June 2025",
         techStack: "Blazor, Bootstrap, CSS",
         likes: 0,
-        type: "frontend"
+        type: "frontend",
+        featured: true
     },
     {
         id: 2,
@@ -23,7 +24,8 @@ export const MockProjects: ProjectType[] = [
         completedDate: "13 July 2025",
         techStack: "Blazor, Bootstrap, CSS",
         likes: 0,
-        type: "frontend"
+        type: "frontend",
+        featured: true
     },
     {
         id: 3,
@@ -35,7 +37,8 @@ export const MockProjects: ProjectType[] = [
         completedDate: "13 August 2025",
         techStack: "Vue, CSS, Pinia",
         likes: 0,
-        type: "frontend"
+        type: "frontend",
+        featured: true
     },
     {
         id: 4,
@@ -47,7 +50,8 @@ export const MockProjects: ProjectType[] = [
         completedDate: "13 July 2025",
         techStack: ".Net 8, EF Core, SQLite",
         likes: 0,
-        type: "backend"
+        type: "backend",
+        featured: false
     },
     {
         id: 5,
@@ -59,7 +63,8 @@ export const MockProjects: ProjectType[] = [
         completedDate: "",
         techStack: ".Net 8, EF Core, SQL Server",
         likes: 0,
-        type: "backend"
+        type: "backend",
+        featured: false
     },
 
 
