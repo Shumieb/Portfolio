@@ -15,11 +15,11 @@
                 recusandae id, cumque quam est iusto aut explicabo officiis 
                 adipisci neque quo quae possimus quis praesentium tenetur!
             </p>
-            <a 
-                href="/resume" 
+            <router-link
+                to="/resume" 
                 role="button" 
                 class="bg-pink-900 text-white text-lg px-6 py-2 shadow rounded"
-            >View Resume</a>
+            >View Resume</router-link>
         </section>
         <section>
             <img 
