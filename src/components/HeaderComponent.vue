@@ -4,7 +4,7 @@
 
 <template>
     <header>
-      <h1><RouterLink to="/">Tasks App</RouterLink></h1>
+      <p><RouterLink to="/" class="text-3xl font-bold underline">Tasks App</RouterLink></p>
       <nav>
         <RouterLink to="/">Home</RouterLink>
         <RouterLink to="/portfolios">Porfolio</RouterLink>

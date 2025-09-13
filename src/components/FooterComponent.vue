@@ -3,7 +3,7 @@
 </script>
 
 <template>
-    <footer>
+    <footer class="text-lg">
         <p>&copy;2024</p>
         <p>Created by Shumie</p>
     </footer>    

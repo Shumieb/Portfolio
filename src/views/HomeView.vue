@@ -3,7 +3,7 @@
 </script>
 
 <template>
-    <p>Home</p>
+    <p class="text-3xl">Home</p>
 </template>
 
 <style scoped>
