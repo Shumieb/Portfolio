@@ -1,10 +1,11 @@
 <script setup lang="ts">
     import HomeTitleCard from "../components/HomeTitleCard.vue"
+    import RecentProjects from "../components/RecentProjects.vue";
 </script>
 
 <template>
     <HomeTitleCard/>
-    <p class="text-3xl">Home</p>
+    <RecentProjects/>
 </template>n
 
 <style scoped>
